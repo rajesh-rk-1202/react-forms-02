@@ -70,6 +70,7 @@ function App() {
   return (
     <div className="app">
       <form onSubmit={submitHandler}>
+        <h1>Register</h1>
         {inputs.map((input) => (
           <FormInput
             key={input.id}
