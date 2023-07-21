@@ -20,7 +20,8 @@ form {
 }
 
 h1 {
-  color: rgb(77, 1, 77);
+  /* color: rgb(77, 1, 77); */
+  color: #561750;
   text-align: center;
 }
 
@@ -29,7 +30,7 @@ button {
   height: 50px;
   padding: 10px;
   border: none;
-  background-color: rebeccapurple;
+  background-color: #561750;
   color: white;
   border-radius: 5px;
   font-weight: bold;
