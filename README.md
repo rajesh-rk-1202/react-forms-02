@@ -1,14 +1,22 @@
-# Getting Started with Create React App
+# Registration page with React JS, HTML and CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+
+Check out the live version of the project [here](https://rajesh-rk-1202.github.io/react-forms-02/).
+
+## Also you can run this app in your local system.
+
+### Follow these steps
 
 ## Available Scripts
 
-In the project directory, you can run:
+### `npm install`
+
+This will install all the dependencies listed in the _package.json_.
 
 ### `npm start`
 
-Runs the app in the development mode.\
+This will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -29,6 +37,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+<!--
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -68,3 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
