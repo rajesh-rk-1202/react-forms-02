@@ -66,15 +66,18 @@ function App() {
     },
   ];
 
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   const submitHandler = (event) => {
     event.preventDefault();
-    setValues({
-      username: "",
-      email: "",
-      birthDay: "",
-      password: "",
-      confirmPassword: "",
-    });
+    // setValues({
+    //   username: "",
+    //   email: "",
+    //   birthDay: "",
+    //   password: "",
+    //   confirmPassword: "",
+    // });
+    setFormSubmitted(true);
     console.log(values);
   };
 
@@ -92,10 +95,12 @@ function App() {
             {...input}
             value={values[input.name]}
             onChange={onChangehandler}
+            formSubmitted={formSubmitted}
           ></FormInput>
         ))}
 
         <button>Submit</button>
+        {formSubmitted && <p>Form Submitted Successfully</p>}
       </form>
     </div>
   );
